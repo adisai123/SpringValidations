@@ -32,6 +32,7 @@
 <form:form action="processForm" modelAttribute="student">
 
 first Name: <form:input class="form-control" path="firstName"/>
+<form:errors path="firstName" cssClass="error"/>
 
 <br><br>
 Last Name: (*)<form:input class="form-control" path="lastName"/>

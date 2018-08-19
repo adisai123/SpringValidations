@@ -8,7 +8,11 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import com.aditya.validation.CourceCode;
+
 public class Student {
+	
+	@CourceCode(value="Adi",message="Please start it with Adi")
 	private String firstName;
 	
 	@NotNull(message="is Required")
